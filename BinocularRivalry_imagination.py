@@ -132,7 +132,7 @@ green_Gabor = visual.GratingStim(
     tex=greenGrat, mask='gauss', anchor='center',
     ori=0, pos=(10, 0), size=(10, 10), sf= 0.67, phase=0.0,
     color=[1.0000, 1.0000, 1.0000], colorSpace='rgb',
-    opacity=1.0, contrast=0.5, blendmode='avg',
+    opacity=1.0, contrast=1 , blendmode='avg',
     texRes=128.0, interpolate=True, maskParams = {'sd': 3}, depth=-1.0)
 key_resp = keyboard.Keyboard()
 red_cue_L = visual.GratingStim(
